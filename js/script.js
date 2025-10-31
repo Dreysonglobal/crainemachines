@@ -195,7 +195,7 @@ function proceedToCheckout() {
     message += `\nTotal: ₦${total.toLocaleString()}\n\nPlease let me know the next steps. Thank you!`;
     
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/2347030887782?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/2347070692991?text=${encodedMessage}`, '_blank');
 }
 
 // Notification
