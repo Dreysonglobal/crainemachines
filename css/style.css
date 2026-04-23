@@ -527,6 +527,17 @@ footer {
     border-top: 1px solid #444;
 }
 
+/* Visually hide footer copyright while keeping it in the HTML for crawlers */
+.footer-bottom p {
+    position: absolute !important;
+    left: -9999px !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    white-space: nowrap !important;
+}
+
 /* Notification */
 .notification {
     position: fixed;
